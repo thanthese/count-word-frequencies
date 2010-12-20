@@ -2,7 +2,12 @@
 
 ## The Problem
 
-Count how many times each words appears in a text file.  Read from a file, write to anther file.  Command-line app.
+Create a command-line app to count how many times each words appears in a text file.  Specifics:
+
+- Read from sampleFile.txt, write to output.txt.
+- Pretty-print the results.
+- Lower-case all words.
+- Sort results by frequency.
 
 ## The Challenge
 
