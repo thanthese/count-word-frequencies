@@ -11,7 +11,7 @@ Create a command-line app to count how many times each words appears in a text f
 
 ## The Challenge
 
-Make it run as fast as possible.
+Make it run as quickly as possible.
 
 ## Current Standings
 
