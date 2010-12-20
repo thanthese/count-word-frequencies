@@ -15,4 +15,4 @@ Make it run as quickly as possible.
 
 ## Current Standings
 
-Shockingly, the python implementation is currently the fastest.
+Shockingly, the python implementation is currently the fastest.  By *a lot*.
