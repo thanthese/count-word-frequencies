@@ -5,7 +5,12 @@ import sys
 # Adam Colton
 # February 2010
 #
-# In answer to my word-counting challenge
+# The python answer to the challenge.
+#
+# Call app like this:
+#
+#   time python sampleFile.txt output.txt
+#
 #
 # (This header added by Stephen Mann.)
 #

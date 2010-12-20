@@ -4,6 +4,10 @@
 ;
 ; Trying that counting-word-frequency program again, this time in clojure.
 ;
+; Call app like this:
+;
+;   time clojure count-words.clj
+;
 
 (ns tokenize
  (:import (java.io BufferedWriter FileWriter)))
@@ -33,11 +37,10 @@
 (defn fix-case [words]
  (map #(.toLowerCase %) words))
 
-(time
- (write-to-file "output.txt"
-  (pretty-print
-   (sort-words-by-frequency
-    (calculate-frequencies
-     (fix-case
-      (split-words
-       (slurp "sampleFile.txt"))))))))
+(write-to-file "output.txt"
+ (pretty-print
+  (sort-words-by-frequency
+   (calculate-frequencies
+    (fix-case
+     (split-words
+      (slurp "sampleFile.txt")))))))
