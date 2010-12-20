@@ -30,3 +30,9 @@ Running the apps on my machine:
     user	0m6.150s
     sys	0m0.370s
 
+    thanthese@Ix:~/clojure/count-word-frequencies$ time ./word < sampleFile.txt > output.txt
+
+    real	0m1.764s
+    user	0m1.720s
+    sys	0m0.040s
+
