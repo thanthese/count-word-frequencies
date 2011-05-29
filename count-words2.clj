@@ -2,7 +2,9 @@
 ; Stephen Mann
 ; 29 May 2011
 ;
-; Print word frequences of the input file to the output file.  Sample call:
+; Print word frequences of the input file to the output file.
+;
+; Sample call:
 ;
 ;     clj count-words2.clj sampleFile.txt output.txt
 ;
